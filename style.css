@@ -1,0 +1,61 @@
+/* رێکخستنا سەرەکی */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #1a1a1a; /* باکگراوندەکێ تاری بۆ دۆنەری */
+}
+
+/* مینویا ئاسۆیی */
+.menu-container {
+    display: flex;         /* ئەڤە دێ خارنان کەتە رێزەکا ئێک */
+    flex-wrap: nowrap;     /* دا خارن ب دەرکەڤنە خوارێ و ل رێزەکێ بن */
+    overflow-x: auto;      /* ئەگەر زۆر بوون، دێ شێی ب پەنجا خۆ ل راست و چەپ بکەی */
+    padding: 20px;
+    gap: 15px;
+    margin-top: -350px;
+    justify-content: center;
+}
+
+/* هەر خارنەک */
+.menu-item {
+    flex: 0 0 auto;        /* گرنگە: خارن ناچنە خوارێ */
+    width: 160px;          /* پانیا چارچوڤەی */
+    background: white;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+.menu-item img {
+    width: 100%;
+    height: 120px;
+    object-fit: contain;
+}
+.contact-info p {
+    margin: 10px 0;
+    color: #ffffff;
+}
+
+/* دا رەقەمێ موبایلێ و ناڤ و نیشان ب ئێک رەنگ و فۆنت بن */
+.contact-info {
+    text-align: center;
+    color: white;
+    padding: 30px;
+    margin-top: 40px; /* کێمەکێ دویراتیێ ددەت ژ مینوێ */
+    background-color: #222; /* رەنگەکێ تاری یێ گەلەکێ جوان */
+    border-top: 4px solid #ffcc00;
+}
+
+.contact-info h2 {
+    font-size: 30px;
+    margin: 5px 0;
+}
+.footer-credit {
+    text-align: left;
+    padding: 10px;
+    font-size: 10px; /* ئەڤە بۆ بچویک کرنا فۆنتی یە */
+    color: #666;    /* رەنگەکێ تاری یێ کێم دیار */
+    margin-top: 20px;
+    border-top: 1px solid #333;
+}
